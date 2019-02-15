@@ -31,5 +31,5 @@ int main(void) {
   shuffle(v.begin(), v.end(), std::default_random_engine(16384));
   for(const auto&x:v) t._M_insert_unique(x);
   t.P_PRINTF();
-  return 255;
+  return 0;
 }
